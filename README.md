@@ -1,4 +1,4 @@
-```
+```python
 class Alex(Minimalist):
   def __init__(self):
     self.professional_status = {
