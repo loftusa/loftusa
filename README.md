@@ -15,8 +15,8 @@ class Alex(Minimalist):
         self.favorite_packages = ["jupyter", "numpy", "pandas", "seaborn", "scikit-learn", "pytorch"]
         self.tools = ["docker", "git"]
     
-    def work(self):
+    def work(self, *tasks):
         self.sit()
-        self.focus()
+        self.focus(*tasks)
         self.enjoy()
  ```
