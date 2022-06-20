@@ -7,7 +7,8 @@ class Alex(Minimalist):
         }
         self.degree_status = {
             "level" : "MSE", 
-            "subject" : "Biomedical Data Science",
+            "degree": "Biomedical Engineering"
+            "concentration" : "Biomedical Data Science",
             "institution" : "Johns Hopkins University",
         }
         self.languages = ["python", "R", "rust"]
