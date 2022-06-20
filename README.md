@@ -1,16 +1,20 @@
-### Hi there 👋
-
-<!--
-**loftusa/loftusa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```
+class Alex(Minimalist):
+  def __init__(self):
+    self.professional_status = {
+      "role" : "Senior Machine Learning Engineer", 
+      "company" : "Scale AI",
+    }
+    self.degree_status = {
+      "level" : "MSE", 
+      "subject" : "Biomedical Data Science",
+      "institution" : "Johns Hopkins University",
+    }
+    self.languages = ["python", "java", "LaTeX"]
+    self.py_datasci_stack = ["jupyter", "pandas", "scikit-learn", "keras", "pytorch"]
+    self.tools = ["docker", "git"]
+    
+  def main(self):
+    if not self:
+      self = self.__init__()
+ ```
