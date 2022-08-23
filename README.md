@@ -2,7 +2,7 @@
 class Alex(Minimalist):
     def __init__(self):
         self.professional_status = {
-            "role" : "Machine Learning Engineer", 
+            "role" : "Machine Learning Research Engineer", 
             "company" : "Blue Halo",
         }
         self.degree_status = {
