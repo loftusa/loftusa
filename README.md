@@ -12,7 +12,7 @@ class Alex(Minimalist):
             "institution" : "Johns Hopkins University",
         }
         self.languages = ["python", "R", "rust"]
-        self.favorite_packages = ["jupyter", "numpy", "pandas", "seaborn", "scikit-learn", "pytorch"]
+        self.favorite_packages = ["jupyter", "numpy", "scipy", "pandas", "seaborn", "scikit-learn", "pytorch"]
         self.tools = ["docker", "git"]
     
     def work(self, *tasks):
