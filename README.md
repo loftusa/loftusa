@@ -1,5 +1,5 @@
 ```python
-class Alex(Minimalist):
+class Alex:
     def __init__(self):
         self.professional_status = {
             "role" : "Machine Learning Research Engineer", 
