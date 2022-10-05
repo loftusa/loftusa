@@ -11,9 +11,9 @@ class Alex(Human):
             "concentration" : "Biomedical Data Science",
             "institution" : "Johns Hopkins University",
         }
-        self.languages = ["python", "R", "rust"]
-        self.favorite_packages = ["jupyter", "numpy", "scipy", "pandas", "seaborn", "scikit-learn", "pytorch"]
-        self.tools = ["docker", "git"]
+        self.languages = ["python", "R", "rust", "bash"]
+        self.favorite_packages = ["pytorch", "numpy", "scipy", "pandas", "sklearn", "matplotlib", "seaborn"]
+        self.tools = ["docker", "git", "linux", "aws", "photoshop", "jupyter"]
     
     def work(self, *tasks):
         self.sit()
