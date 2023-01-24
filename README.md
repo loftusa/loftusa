@@ -16,7 +16,6 @@ class Alex(Explorer):
         self.tools = ["docker", "git", "linux", "aws", "photoshop", "jupyter"]
     
     def work(self, *tasks):
-        self.sit()
-        self.focus(*tasks)
-        self.enjoy()
+        while self.focus(*tasks):
+            self.enjoy()
  ```
