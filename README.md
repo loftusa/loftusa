@@ -2,8 +2,8 @@
 class Alex(Explorer):
     def __init__(self):
         self.professional_status = {
-            "role" : "Machine Learning Research Engineer", 
-            "company" : "Blue Halo",
+            "role" : "Data Scientist", 
+            "company" : "creyon",
         }
         self.degree_status = {
             "level" : "MSE", 
