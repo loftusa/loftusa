@@ -13,7 +13,7 @@ class Alex(Explorer):
             "institution" : "Johns Hopkins University",
         }
         self.languages = ["python", "R", "rust", "bash"]
-        self.favorite_packages = ["pytorch", "numpy", "scipy", "pandas", "sklearn", "matplotlib", "seaborn"]
+        self.favorite_packages = ["pytorch", "numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "seaborn"]
         self.tools = ["docker", "git", "linux", "aws", "photoshop", "jupyter"]
     
     def work(self, *tasks):
