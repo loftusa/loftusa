@@ -1,6 +1,7 @@
 ```python
 class Alex(Explorer):
-    def __init__(self):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.professional_status = {
             "role" : "Data Scientist", 
             "company" : "creyon",
