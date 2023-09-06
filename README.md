@@ -1,5 +1,5 @@
 ```python
-class Alex(GeoffAndSusan):
+class Alex(Parents):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.professional_status = {
