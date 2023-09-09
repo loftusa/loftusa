@@ -14,7 +14,7 @@ class Alex(Parents):
         }
         self.personal_status = {
             "girlfriend": "Aina",
-            "mood": "Content",
+            "mood": "Inquisitive",
         }
         self.languages = ["python", "R", "rust", "bash"]
         self.favorite_packages = ["pytorch", "numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "seaborn"]
