@@ -4,13 +4,17 @@ class Alex(Parents):
         super().__init__(**kwargs)
         self.professional_status = {
             "role" : "Data Scientist", 
-            "company" : "creyon",
+            "company" : "Creyon",
         }
         self.degree_status = {
             "level" : "MSE", 
             "degree": "Biomedical Engineering"
             "concentration" : "Biomedical Data Science",
             "institution" : "Johns Hopkins University",
+        }
+        self.personal_status = {
+            "girlfriend": "Aina",
+            "mood": "Content",
         }
         self.languages = ["python", "R", "rust", "bash"]
         self.favorite_packages = ["pytorch", "numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "seaborn"]
