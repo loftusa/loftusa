@@ -13,7 +13,6 @@ class Alex(Parents):
             "institution" : "Johns Hopkins University",
         }
         self.personal_status = {
-            "girlfriend": "Aina",
             "mood": "Curious",
         }
         self.languages = ["python", "R", "rust", "bash"]
