@@ -3,8 +3,9 @@ class Alex(Parents):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.professional_status = {
-            "role" : "Data Scientist", 
-            "company" : "Creyon",
+            "role" : "PhD Student", 
+            "institution" : "Northeastern University",
+            "focus": "Interpretability in code LLMs"
         }
         self.degree_status = {
             "level" : "MSE", 
