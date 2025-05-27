@@ -21,6 +21,7 @@ class Alex(Parents):
         self.tools = ["docker", "git", "linux", "aws", "photoshop", "jupyter"]
     
     def work(self, *tasks):
-        while self.focus(*tasks):  # inherited method from Parents
+        # inherited method from Parents
+        while self.focus(*tasks):
             self.enjoy()
  ```
