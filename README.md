@@ -17,7 +17,7 @@ class Alex(Parents):
             "mood": "Curious",
         }
         self.languages = ["python", "R", "rust", "bash"]
-        self.favorite_packages = ["pytorch", "numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "seaborn"]
+        self.favorite_packages = ["torch", "vllm", "polars", "scikit-learn", "scipy", "seaborn"]
         self.tools = ["docker", "git", "linux", "aws", "photoshop", "jupyter"]
     
     def work(self, *tasks):
